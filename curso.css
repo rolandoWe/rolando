@@ -273,7 +273,7 @@ footer{
         font-size:3em;
         color:black
     }
-/*@media (max-width:400px){
+@media (max-width:400px){
     .contenedor-servicio img{
         width:100%
     }
@@ -286,7 +286,7 @@ footer{
         font-size:2em;
         width:100%
     }
-}*/
+}
 }
  
 

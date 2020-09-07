@@ -1,6 +1,6 @@
 .sec{
     background:green;
-    width:95vw;
+    width:98vw;
     height:100vh;
     margin-left:15px;
     overflow:hidden;
@@ -65,12 +65,26 @@
     transform:scale(1.1);
     box-shadow: 5px  5px 5px 10px red unset ;
 }
+.cerrar{
+    width:30px;
+    height:30px;
+    background:white;
+    position:fixed;
+    top:3%;
+    right:4%;
+    text-align:center;
+    font-size:30px;
+    border-radius:50%;
+    background:black;
+    color:white;
+    cursor:pointer
+}
 .fondo{
     position:fixed;
     top:0;
     left:0;
-    height:100vh;
-    width:100vw;
+    height:100%;
+    width:100%;
     background:rgba(0,0,0,.8);
     display:flex;
     justify-content:center;
@@ -82,6 +96,45 @@
 transform:scale(1)
 }
 .poner-foto{
-height:95vh;
-width:auto
+height:90vh;
+width:auto;
+
+}
+
+@media (max-width:850px){
+    .poner-foto{
+        height:70vh;
+        width:auto
+    }
+    .cerrar{
+        top:3%
+    }
+}
+@media (max-width:650px){
+    .poner-foto{
+        height:70vh;
+        width:auto
+    }
+    .cerrar{
+        top:10%
+    }
+}
+@media (max-width:450px){
+    .poner-foto{
+        height:50vh;
+        width:auto
+    }
+    .cerrar{
+        top:15%
+    }
+}
+@media (max-width:330px){
+    .poner-foto{
+        height:35vh;
+        width:auto
+    }
+    .cerrar{
+        top:25%;
+        right:50%
+    }
 }
