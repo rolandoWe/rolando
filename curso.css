@@ -8,10 +8,10 @@ body{
     
 }
 .contenedor{
-    width:90%;
+    width:95%;
     max-width:74rem;
     overflow:hidden;
-    margin:0% 5%;
+    margin:1% 1%;
     padding:5em 5em;
 }
 .header{
@@ -37,10 +37,10 @@ body{
     top:1em;
     right:1em;
     background:purple;
-    width:4em;
-    height:4em;
+    width:45px;
+    height:45px;
     cursor:pointer;
-    border-radius:1em;
+    border-radius:5px;
     box-shadow:-.3em .3em .5em green;
 }
 .menu-navegacion{
@@ -68,7 +68,6 @@ body{
 .titulo{
     font-size:3em;
     margin-bottom:1em;
-    background:green
 }
 .copy{
     font-weight:100;
@@ -79,7 +78,7 @@ body{
     text-align:center;
     font-weight:300;
     color:blue;margin-bottom:2em;
-    font-size:2.5em
+    font-size:70px
 }
 .contenedor-servicio{
     display:flex;
@@ -89,7 +88,7 @@ body{
     background:yellow
 }
 .contenedor-servicio img{
-    width:50%;
+    width:40%;
     background:red
 }
 .checklist-servicio{
@@ -99,7 +98,7 @@ body{
     margin-bottom:.5em;
     background:grey;
     font-size:2em;
-    padding: 0 3%;
+    padding: 5%;
     width:100%
 }
 .n-service{
@@ -195,7 +194,7 @@ color:#9f8ad0;
 }
 footer{
     background:#9f8ad0;
-    padding-bottom:.1em;
+    padding-bottom:1px;
 }
 .footer-content{
     display:flex;
@@ -211,10 +210,12 @@ footer{
 }
 .brand{
     font-weight:500;
-    font-size:2.5em
+    font-size:2.5em;
+    text-align:center
 }
 .brand+p{
     font-weight:400;
+    text-align:center
 }
 .social-media{
     width:50%;background:goldenrod;
@@ -247,20 +248,30 @@ footer{
     height:.5em;
     max-width:75rem;
 }
-@media (max-width:800px){
+@media (max-width:900px){
     .hamburger{
         background:rgb(117, 196, 117)
     }
+    .contenedor-servicio{
+        justify-content:center;
+        
+    }
+    .copy{
+        font-size:40px
+    }
     .service{
-        width:170%;
-        margin-left:-80px
+        width:190%;
+        position:relative;
+        right:45%
     }
-    .services h2{
-        font-size:60px
-    }
-    .contenedor h2{
-        font-size:60px
-    }
+     .n-service{
+         font-size:30px
+     }
+     .subtitulo{
+         margin-bottom:50px ;
+         background:yellow;
+         font-size:40px
+     }
     .img-galeria{
         width:40%
     }
@@ -273,20 +284,61 @@ footer{
         width:90%
     }
     .brand{
-        font-size:3em;
+        font-size:30px;
         color:black
     }
-@media (max-width:400px){
-    .contenedor-servicio img{
-        width:100%
-    }
-    .checklist-servicio{
-        width:100%
+@media (max-width:700px){
+ .img-galeria{
+     height:100px
+ }
+ .brand{
+     font-size:20px;
+     font-weight:700
+ }
+ .brand+p{
+     font-size:10px;
+     font-weight:700
+ }
+ .social-media{
+     width:50%
+ }
+}
+@media (max-width:507px){
+    .service p{
+        font-size:25px
     }
     .service{
+      width:130%;
+      right:10%
+    }
+    .subtitulo{
+        font-size:30px;
+        font-weight:700
+    }
+    .img-galeria{
+        width:100%
+    }
+    .menu-navegacion{
+        transform:translate(0);
+        display:flex;
+        flex-direction:initial;
+        height:50px;
+        width:100vw;
+        z-index:20;
+        font-size:15px;
+        font-weight:700
         
-        background:rgb(121, 88, 88);
-        font-size:2em;
+    }
+ 
+    .contenedor{
+        width:95vw;
+        background:blue;
+
+    }
+    .checklist-servicio{
+        width:100%;
+    }
+    .contenedor-servicio{
         width:100%
     }
 }
