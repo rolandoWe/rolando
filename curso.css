@@ -43,6 +43,25 @@ body{
     border-radius:5px;
     box-shadow:-.3em .3em .5em green;
 }
+.rt{
+    position:fixed;
+    top:0;
+    right:0;
+    width:25px;
+    height:25px;
+    background:black;
+    color:white;
+    text-align:center;
+    font-size:25px;
+    line-height:15px;
+    font-weight:700;
+    border-radius:50%;
+    cursor:pointer
+}
+.rt:hover{
+    background:red;
+    color:black
+}
 .menu-navegacion{
     position:fixed;
     top:0;
@@ -319,20 +338,14 @@ footer{
         width:100%
     }
     .menu-navegacion{
-        transform:translate(0);
-        display:flex;
-        flex-direction:initial;
-        height:50px;
+        height:100vh;
         width:100vw;
-        z-index:20;
-        font-size:15px;
-        font-weight:700
         
     }
  
     .contenedor{
         width:95vw;
-        background:blue;
+        
 
     }
     .checklist-servicio{
@@ -340,6 +353,22 @@ footer{
     }
     .contenedor-servicio{
         width:100%
+    }
+    @media (max-width:350px){
+        .titulo{
+            font-size:30px
+        }
+        .copy{
+            font-size:20px
+        }
+        .services{
+            background:green
+        }
+        .subtitulo{
+            width:160%;
+            margin-left:-50px;
+            margin-top:-50px
+        }
     }
 }
 }
