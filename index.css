@@ -1,0 +1,160 @@
+*{
+    margin:0 1px
+}
+.cabeza{
+    width:100%;
+    height:100vh;
+    background-size:cover;
+    background-image: linear-gradient(to top, rgba(41, 6, 78, 0.7) 0%, rgb(51, 8, 90,.8) 100%),
+    url(pro/carpintera.jpg);
+    background-attachment:fixed;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+.cabeza h1{
+    color:white;
+    font-size:60px;
+    padding:20px 0
+}
+.cabeza p{
+    color:white;
+    font-size:30px;
+    padding:20px 0;
+}
+.menu{
+    position:fixed;
+    top:5%;
+    right:3%;
+    font-size:50px;
+    background:white;
+    border-radius:10%
+}
+.nav{
+    position:fixed;
+    top:1%;
+    right:1%;
+    width:20%;
+    height:100vh;
+    background:blue;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:space-evenly;
+    list-style:none;
+    transform:translate(110%);
+    transition:.5s
+}
+.mostNav{
+    transform:translate(0)
+}
+nav li a{
+    text-decoration:none;
+    font-size:30px;
+    color:white
+}
+.no{
+    position:fixed;
+    top:1%;
+    right:1%;
+    font-size:40px;
+    color:white;
+    cursor:pointer;
+    background:black;
+    border-radius:50%
+}
+.cuerpo{
+    width:100%;
+    background:rgb(204, 199, 199);
+    margin:1% 0;
+
+    
+ 
+}
+.cuerpo h2{
+    text-align:center
+}
+.lecturas{
+    width:100%;
+    background:rgb(228, 197, 197);
+    display:flex;
+    justify-content: space-evenly;
+    padding:1% 0;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.lectura1{
+    width:40%;
+    height:250px;
+    background:white
+}
+.lectura2{
+    width:40%;
+    background:white
+}
+.lectura3{
+    width:40%;
+    background:white
+}
+.fotos{
+    width:95%;
+    margin: 1% 2.5%;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap
+}
+.imagen{
+    background:white;
+    width:300px;
+    height:300px;
+    margin:1%;
+    padding:1%;
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+.fot{
+    width:70%;
+    height:50%;
+    cursor:pointer
+}
+.fondo{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background:black;
+    color:white;
+    display: flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    transform:translate(110%);
+    transition:.3s;
+}
+.quitarFondo{
+    position:fixed;
+    top:2%;
+    right:2%;
+    height:40px;
+    width:40px;
+    background:red;
+    font-size:50px;
+    text-align:center;
+    line-height:28px;
+    font-weight:700;
+    border-radius:50%;
+    cursor:pointer;
+    color:black
+}
+.ponerFondo{
+    transform:translate(0)
+}
+.ponerFoto{
+    height:90%;
+
+}
+
+
