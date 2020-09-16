@@ -85,8 +85,7 @@ nav li a{
     align-items: center;
 }
 .lectura1{
-    width:40%;
-    height:250px;
+    width:60%;
     background:white;
     margin-bottom: 1%;
 }
@@ -111,7 +110,6 @@ nav li a{
 .imagen{
     background:white;
     width:300px;
-    height:300px;
     margin:1%;
     padding:1%;
     display:flex;
@@ -161,15 +159,22 @@ nav li a{
 
 }
 
-@media (max-width:900px){
+@media (max-width:975px){
     .cabeza h1{
         font-size:50px
     }
     .cabeza p{
         font-size:25px
     }
+    .ponerFoto{
+        height:68%;
+
+    }
+    .nav{
+        width:50%
+    }
 }
-@media (max-width:750px){
+@media (max-width:740px){
     .cabeza h1{
         font-size:40px;
         width:90%
@@ -187,6 +192,19 @@ nav li a{
     .lectura3{
         width:80%
     }
+    .ponerFoto{
+        height:55%
+    }
+    .nav{
+        width:50%
+    }
+    .imagen{
+        width:30%;
+        height:200px
+    }
+    .fot{
+        height:100px
+    }
 }
 @media (max-width:550px){
     .cabeza h1{
@@ -195,14 +213,44 @@ nav li a{
     .cabeza p{
         font-size:20px
     }
-}
-@media (max-width:350px){
     .ponerFoto{
-        height:30vh
+        height:45%
     }
     .nav{
         width:100%
     }
+    .fot{
+        height:60px
+    }
+    .pa{
+        font-size: 20px;
+    }
+    .lec{
+        width:100%
+    }
+}
+@media (max-width:400px){
+    .ponerFoto{
+        height:30%
+    }
+    .nav{
+        width:100%
+    }
+    .lec{
+        width:100%
+    }
+    .imagen{width:90%}
+    .fot{height:100px}
+    .lec p{font-size:20px}
+    .lec h1{font-size:35px}
+}
+
+@media (max-width:300px){
+    .ponerFoto{
+        height: 23%;
+    }
+    .lec p{font-size:20px}
+    .lec h1{font-size:35px}
 }
 
 
