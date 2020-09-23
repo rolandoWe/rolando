@@ -1,5 +1,5 @@
 *{
-    margin:0 1px
+    margin:0 1px;
 }
 .cajaMadre{
     overflow:hidden
@@ -68,10 +68,54 @@ nav li a{
     border-radius:50%
 }
 
-
-.re{
-    display:none
+.principal{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100vh;
+    background:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform:translate(110%)
 }
+.quitaReloj{
+transform:translate(0)
+}
+.cajaDelReloj{
+    width:300px;
+    height:150px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap
+}
+.fecha{
+    width:95%;
+    height:30px;
+    border:solid black 1px
+}
+.hora2{
+    width:150px;
+    height:30px;
+    border:solid black 1px
+}
+.segundo{
+    width:50px;
+    height:30px;
+    border:solid black 1px
+}
+.ampm{
+    width:50px;
+    height:30px;
+    border:solid black 1px
+}
+
+
+
+
 .cuerpo{
     width:100%;
     background:rgb(204, 199, 199);
@@ -176,80 +220,9 @@ nav li a{
     height:90%;
 
 }
-
-
-.principal{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100vh;
-    background:black;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-   transform:translate(110%)
-}
-.quitaReloj{
-    transform:translate(0)
-}
-
-.cerraR{
-    color:black;
-    position:fixed;
-    top:1%;
-    right:1%;
-    font-size:30px;
-    font-weight:800;
-    cursor:pointer;
-    background:white;
-    border-radius:50%
-}
-.cajaDelReloj{
-    display:flex;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content:center;
-    width:320px;
-    height:150px;
-    border-radius:15px;
-background-color: white;
-}
-.fecha{
-width:95%;
-height:25%;
-border:solid black 1px;
-text-align:center;
-font-size:30px
-}
-.hora2{
-    width:50%;
-    height:30%;
-    border-radius:10px;
-    font-size:45px;
-    line-height:45px;
-    text-align:center;
-    background:rgb(5, 250, 5);
-    box-shadow:0px 0px 10px 1px rgb(3, 83, 3) inset;
-    font-family:"DS-digital";
-}
-.segundo{
-    width:10%;
-    height:20%;
-    border:solid black 1px;
-    margin-left:2px;
-    font-size:20px;
-    font-weight:600;
-    line-height:40px
-}
-.ampm{
-    width:15%;
-    height:20%;
-    border:solid black 1px;
-    margin-left:20px;
-    font-size:25px;
-    text-align:center;
-    font-weight:800
+.lectura0{
+    width:400px;
+    border:solid black 1px
 }
 
 @media (max-width:975px){
@@ -266,13 +239,7 @@ font-size:30px
     .nav{
         width:50%
     }
-    .cajaHora{
-        font-size:29px;
-        line-height:35px
-    }
-    .cajareloj{
-        height:45px
-    }
+ 
 }
 @media (max-width:740px){
     .cabeza h1{
@@ -306,13 +273,7 @@ font-size:30px
         height:100px
     }
 
-    .cajaHora{
-        font-size:21.5px;
-        line-height:30px
-    }
-    .cajareloj{
-        height:35px
-    }
+
 }
 @media (max-width:550px){
     .cabeza h1{
@@ -336,13 +297,7 @@ font-size:30px
     .lec{
         width:100%
     }
-    .cajaHora{
-        font-size:15.5px;
-        line-height:30px
-    }
-    .cajareloj{
-        height:35px
-    }
+
 }
 @media (max-width:400px){
     .ponerFoto{
@@ -356,20 +311,7 @@ font-size:30px
     .fot{height:100px}
     .lec p{font-size:20px}
     .lec h1{font-size:35px}
-.cajaHora{
-    font-size:11.7px;
-    line-height:30px
-}
-.cajareloj{
-    height:35px
-}
-.cerraR{
-    font-size:20px;
-    right:2%
-}
-.cajaDelReloj{
-    width:90%
-}
+
 }
 
 @media (max-width:300px){
@@ -378,17 +320,7 @@ font-size:30px
     }
     .lec p{font-size:20px}
     .lec h1{font-size:35px}
-    .cajaHora{
-        font-size:20px;
-        line-height:30px;
-        padding:0 10px
-    }
-    .cajareloj{
-        height:80px
-    }
-    .fecha{
-        font-size:27px
-    }
+
 }
 
 
