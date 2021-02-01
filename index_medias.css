@@ -9,6 +9,9 @@ font-size:20px
         width:50%;
         height:80%
     }
+    .sueldos{
+        width:70%
+    }
     .secNoti_1 p{
         font-size:18px
     }
@@ -59,9 +62,6 @@ transform:translate(-0%)
     .hamburg{
         display:block
     }
-    /* .cinta{
-        height:100px
-    } */
     .log{
         position:absolute;
         top:-30px;
@@ -78,6 +78,15 @@ transform:translate(-0%)
         width:100%;
         /* border:solid black 1px; */
         padding-top:0px
+    }
+    .img_lala{
+        height:100px
+    }
+    .convoca h5{
+        font-size:16px
+    }
+    .sueldos, .monto{
+        font-size:12px
     }
     .banner{
         height:370px;
@@ -184,6 +193,25 @@ transform:translate(-0%)
     .yo_texto p{
         font-size:15px
     }
+    .contenedor_lala{
+        width:100%
+    }
+    .img_lala{
+        height:80px
+    }
+    .lala_oferta{
+        grid-column-gap:15px
+
+    }
+    .convoca{
+        width:100%;
+    }
+    .convoca p{
+        font-size:8px
+    }
+    .sueldos{
+        width:95%
+    }
 
 .noticia_uno{
     height:290px
@@ -245,7 +273,7 @@ transform:translate(-0%)
     grid-template-columns: auto;
     margin-top:-30px;
     height:240px;
-    border:solid black 1px
+    /* border:solid black 1px */
 }
 .pie_contacto,
 .pie_datos{
@@ -306,6 +334,24 @@ transform:translate(-0%)
     }
     .sec_azar h5{
         font-size:17px
+    }
+    .img_lala{
+        height:60px
+    }
+    .lala_oferta{
+        grid-template-columns: auto;
+    }
+    .contenedor_lala > p{
+        font-size:17px;
+        color: rgb(61, 61, 66);
+        font-family:Impact, 'Arial Narrow Bold', sans-serif
+    }
+    .convoca{
+        width:90%;
+        margin-left:0px
+    }
+    .sueldos{
+        width:80%
     }
     .noticia_uno {
         height:400px;

@@ -130,29 +130,29 @@ function mi_menu(){
 
 // *************************SLIDER*********************************
 
-let canvas=document.querySelector(".canvas");
-let inp_slider=document.querySelector(".input_slider");
+// let canvas=document.querySelector(".canvas");
+// let inp_slider=document.querySelector(".input_slider");
 
-inp_slider.addEventListener("input",mos_slider);
-let contexto=canvas.getContext("2d");
-let mem_img=[];
+// inp_slider.addEventListener("input",mos_slider);
+// let contexto=canvas.getContext("2d");
+// let mem_img=[];
 
-for(let i=1;i<=21;i++){
-    let contador=i;
-    let url_img=`canvas/pena_000${contador}.jpg`;
-    let nueva_img=new Image();
-    nueva_img.src=url_img;
+// for(let i=1;i<=21;i++){
+//     let contador=i;
+//     let url_img=`canvas/pena_000${contador}.jpg`;
+//     let nueva_img=new Image();
+//     nueva_img.src=url_img;
 
-    nueva_img.addEventListener("load",function(){
-        mem_img[i]=nueva_img;
-        if(i==1){
-            dibujar(i)
-        }
-    })
-}
-function dibujar(img){
-    contexto.drawImage(mem_img[img],0,0,canvas.width,canvas.height)
-}
-function mos_slider(){
-    dibujar(this.value)
-}
+//     nueva_img.addEventListener("load",function(){
+//         mem_img[i]=nueva_img;
+//         if(i==1){
+//             dibujar(i)
+//         }
+//     })
+// }
+// function dibujar(img){
+//     contexto.drawImage(mem_img[img],0,0,canvas.width,canvas.height)
+// }
+// function mos_slider(){
+//     dibujar(this.value)
+// }
