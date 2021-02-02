@@ -287,7 +287,8 @@ transform:translate(-0%)
 }
 
 }
-@media(max-width:350px){
+@media(max-width:320px){
+    
     .cerrar_lista{
         right:-35%;
         margin-bottom:-100px;
@@ -295,7 +296,7 @@ transform:translate(-0%)
         font-weight: bold;
     }
     .cinta1{
-
+background:red;
         width:100%;
         z-index:3000;
     }
