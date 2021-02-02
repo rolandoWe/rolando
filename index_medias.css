@@ -137,6 +137,9 @@ transform:translate(-0%)
     .cinta{
         height:55px
     }
+    .cinta1{
+        background:green;
+    }
     .log{
         top:-25px;
         left:2%
