@@ -7,6 +7,11 @@ body{
     background:transparent;
     /* overflow: hidden; */
 }
+.guacho2{
+    height:50px;
+    color: rgb(29, 8, 168);
+    font-size:50px
+}
 .cajaMadre{
     position:relative;
     overflow: hidden;
@@ -263,7 +268,7 @@ animation: girar 60s infinite linear
  .fecha{
     width:100%;
     height:100%;
-    color:#f7f0f0;
+    color:rgb(255, 255, 255,.9);
     text-align: center;
     line-height: 40px;
 } 
@@ -673,7 +678,7 @@ font-style: italic;
     text-align: center;
     background:#000000;
     font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     color:#ffffff
 }
 .desc{
@@ -684,6 +689,7 @@ font-style: italic;
     border-radius:10px;
     color:#0707a0;
     font-weight: bold;
+    font-size:20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .desc-n{

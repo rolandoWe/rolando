@@ -1,0 +1,12 @@
+/*****************************
+ All rights reserved.
+ AllFont.ru (c) 2011-2015
+ *****************************/
+@font-face {
+    font-family: 'DS-Digital Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('DS-Digital Bold'), local('DS-Digital-Bold'),
+        url(http://allfont.ru/cache/fonts/ds-digital-bold_769f260369a8b090f3294dd789d30db3.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/ds-digital-bold_769f260369a8b090f3294dd789d30db3.ttf) format('truetype');
+}
