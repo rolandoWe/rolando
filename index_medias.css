@@ -195,6 +195,14 @@ transform:translate(-0%)
     .yo_texto p{
         font-size:15px
     }
+    /* ************************* EXPERIENCIA ******************* */
+    .experiencia{
+        width:100%
+    }
+    .cont_expe p{
+width:100%
+    }
+    /* **************** LALA ***************** */
     .contenedor_lala{
         width:100%
     }
@@ -339,6 +347,17 @@ transform:translate(-0%)
     .sec_azar h5{
         font-size:17px
     }
+    /* ******************** EXPERIENCIA ****************** */
+    .experiencia{
+        flex-direction: column;
+        align-items: center;
+    }
+    .experiencia_img{
+margin:5px;
+width:80%;
+height:170px
+    }
+    /* *********************LALA ******************** */
     .img_lala{
         height:60px
     }
